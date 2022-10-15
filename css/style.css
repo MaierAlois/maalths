@@ -1,3 +1,53 @@
 body {
+    margin: 0;
+    padding: 0;
     background-color: #3A0CA3;
+    color: #3A0CA3;
+    font-family: Outfit;
+}
+
+h1::selection {
+    background-color: #3A0CA3;
+}
+
+#title_subtitle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 354px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1, h3 {
+    margin: 0;
+    padding: 0;
+    background-color: #F72585;
+}
+
+h1 {
+    padding: 21px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 128px;
+    font-weight: bold;
+}
+
+h3 {
+    width: fit-content;
+    padding: 21px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#top
+{
+    align-self: flex-start;
+}
+
+#bottom
+{
+    align-self: flex-end;
 }
